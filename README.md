@@ -13,6 +13,8 @@ pip install -r requirements.txt
 ## Run
 
 ```bash
+export CYERA_CLIENT_ID="XXXXX"
+export CYERA_SECRET="XXXXX"
 python datastore_ui.py
 ```
 
@@ -25,7 +27,4 @@ Then open `http://127.0.0.1:5000` in your browser.
 - Edit the params JSON; empty values are ignored.
 - Response JSON is displayed in the page output section.
 
-To run this file:
-export CYERA_CLIENT_ID="XXXXX"
-export CYERA_SECRET="XXXXX"
-python datastore_ui.py
+
